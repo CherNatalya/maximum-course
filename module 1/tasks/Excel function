@@ -1,0 +1,9 @@
+Function sr(lists As Range)
+    On Error GoTo do_error
+        Set plugin = PyModule("plugin", AddPath:=ThisWorkbook.Path)
+        Set result = PyCall(plugin, "get_unique", PyTuple(lists.Value2))
+        sr = WorksheetFunction.Transpose(PyVar(result))
+        Exit Function
+do_error:
+        sr = Err.Description
+End Function

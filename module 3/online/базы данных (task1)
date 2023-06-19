@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" modified="2023-05-22T13:38:06.386Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="0KpG_xqw7fuG9AgwO1PH" version="21.3.2" type="device">
+  <diagram name="Страница 1" id="EjggS6ndDLRwD0--CH4_">
+    <mxGraphModel dx="1644" dy="538" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jEZeYQYOgevE8O0umC9v-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jEZeYQYOgevE8O0umC9v-15" target="jEZeYQYOgevE8O0umC9v-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jEZeYQYOgevE8O0umC9v-11" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-249" y="37" width="159" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="jEZeYQYOgevE8O0umC9v-12" value="Курс" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;container=0;" vertex="1" parent="jEZeYQYOgevE8O0umC9v-11">
+          <mxGeometry width="159" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jEZeYQYOgevE8O0umC9v-13" value="Продолжительность" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;container=0;" vertex="1" parent="jEZeYQYOgevE8O0umC9v-11">
+          <mxGeometry y="99" width="159" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="jEZeYQYOgevE8O0umC9v-14" value="Количество уроков" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;container=0;" vertex="1" parent="jEZeYQYOgevE8O0umC9v-11">
+          <mxGeometry y="137" width="159" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="jEZeYQYOgevE8O0umC9v-15" value="id (счётчик, PRIMARY KEY)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;container=0;" vertex="1" parent="jEZeYQYOgevE8O0umC9v-11">
+          <mxGeometry y="60" width="159" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="jEZeYQYOgevE8O0umC9v-30" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="213" y="39" width="159" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="jEZeYQYOgevE8O0umC9v-31" value="Ученик" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;container=0;" vertex="1" parent="jEZeYQYOgevE8O0umC9v-30">
+          <mxGeometry width="159" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jEZeYQYOgevE8O0umC9v-32" value="ФИО" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;container=0;" vertex="1" parent="jEZeYQYOgevE8O0umC9v-30">
+          <mxGeometry y="99" width="159" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="jEZeYQYOgevE8O0umC9v-33" value="Номер телефона" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;container=0;" vertex="1" parent="jEZeYQYOgevE8O0umC9v-30">
+          <mxGeometry y="137" width="159" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="jEZeYQYOgevE8O0umC9v-34" value="id (счётчик, PRIMARY KEY)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;container=0;" vertex="1" parent="jEZeYQYOgevE8O0umC9v-30">
+          <mxGeometry y="60" width="159" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="jEZeYQYOgevE8O0umC9v-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jEZeYQYOgevE8O0umC9v-34" target="jEZeYQYOgevE8O0umC9v-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jEZeYQYOgevE8O0umC9v-36" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-2" y="37" width="135" height="254" as="geometry" />
+        </mxCell>
+        <mxCell id="jEZeYQYOgevE8O0umC9v-25" value="id ученика" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;container=0;" vertex="1" parent="jEZeYQYOgevE8O0umC9v-36">
+          <mxGeometry y="215" width="135" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="jEZeYQYOgevE8O0umC9v-21" value="course_id" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;container=0;" vertex="1" parent="jEZeYQYOgevE8O0umC9v-36">
+          <mxGeometry y="176" width="135" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="jEZeYQYOgevE8O0umC9v-17" value="Урок" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;container=0;" vertex="1" parent="jEZeYQYOgevE8O0umC9v-36">
+          <mxGeometry width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jEZeYQYOgevE8O0umC9v-18" value="Предмет" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;container=0;" vertex="1" parent="jEZeYQYOgevE8O0umC9v-36">
+          <mxGeometry y="99" width="135" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="jEZeYQYOgevE8O0umC9v-19" value="Преподаватель" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;container=0;" vertex="1" parent="jEZeYQYOgevE8O0umC9v-36">
+          <mxGeometry y="137" width="135" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="jEZeYQYOgevE8O0umC9v-20" value="id (счётчик, PRIMARY KEY)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;container=0;" vertex="1" parent="jEZeYQYOgevE8O0umC9v-36">
+          <mxGeometry y="60" width="135" height="39" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
