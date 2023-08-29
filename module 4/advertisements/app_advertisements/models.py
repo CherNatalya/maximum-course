@@ -4,7 +4,6 @@ from django.utils.html import format_html
 from django.contrib.auth import get_user_model
 from django.conf.urls.static import static
 User = get_user_model()
-img = "E:\My_projects_python\maximum-course\module 4\advertisements\static\img\adv.png"
 
 
 class Advertisement(models.Model):
@@ -14,8 +13,8 @@ class Advertisement(models.Model):
     auction = models.BooleanField("Торг", help_text="Отметьте, если будет уместен торг")
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
-    user = models.ForeignKey(User, verbose_name="Пользователь", on_delete=models.CASCADE)
-    image = models.ImageField("Изображение", upload_to="advertisements/")
+    user = models.ForeignKey(User, verbose_name="Пользователь", on_delete=models.CASCADE, default=1)
+    image = models.ImageField("Изображение", upload_to="advertisements/", blank=True, null=True)
 
     class Meta:
         db_table = 'advertisements'
