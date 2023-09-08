@@ -2,7 +2,7 @@ from django.db import models
 from django.contrib import admin
 from django.utils.html import format_html
 from django.contrib.auth import get_user_model
-from django.conf.urls.static import static
+from django.urls import reverse
 User = get_user_model()
 
 
@@ -47,3 +47,6 @@ class Advertisement(models.Model):
         if self.image:
             return format_html('<img src=" {} " width="40">', self.image.url)
         return format_html('<img src=" {} " width="40">', 'http://127.0.0.1:8000/media/advertisements/adv.png')
+
+    def get_absolute_url(self):
+        return reverse('adv-detail', kwargs={'pk': self.pk})
